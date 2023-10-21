@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <style>
+            p{
+                background-color: aqua;
+            }
+            h1{
+                text-align: center;
+                top: 100;
+            }
+            .navbar {
+                width: 100%;
+                height: 80px;
+                position: fixed;
+                top: 0;
+                left: 0;
+                padding: 0 4%;
+                background: #0c111b;
+                z-index: 0;
+                display: flex;
+                align-items: center;
+            }
+            .nav-links {
+                margin-top: 10px;
+                display: flex;
+                list-style: none;
+            }
+            .nav-items a {
+                text-decoration: none;
+                margin-left: 20px;
+                text-transform: capitalize;
+                color: white;
+                opacity: 0.9;
+            }
+
+        </style>
+        <title> Home Page </title>
+    </head>
+    <body bgcolor="aqua">
+        <nav class="navbar">
+            <ul class="nav-links">  
+              <li class="nav-items"><a href="#"> Home </a></li>
+              <li class="nav-items"><a href="#"> Packages </a></li>
+              <li class="nav-items"><a href="#"> Map </a></li>
+              <li class="nav-items"><a href="#"> Conatct Information </a></li>
+              <li class="nav-items"><a href="#"> Hotels and Resorts </a></li>
+            </ul>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <h1>EXPLORE JAMMU AND KASHMIR</h1>
+        <p>
+            <bold><h3>  
+            Kashmir is the paradise of tourists: Its scenic beauty and salubrious climate have given it the aptitude of “Tourists Paradise.” With its lakes and mountains, its luxurious chinars and tall slender poplars, delicious fruits ancient monuments, its placid rivers and murmuring streams swarming with Himalayan trout, and a host of innumerable natural attractions Kashmir, as G.T. Vigne prophesied in 1885, has become the sine qua non of the traveller to the East.
+            </bold></h3>
+            <h3>Some of the major attractions in Jammu and Kashmir are:
+                <ul><a href="yusmarg.html">Yusmarg</a></ul>
+                <ul><a href="gurezValley.html"">Gurez Valley</a></ul>
+                <ul><a href="#">Pahalgam</a></ul>
+                <ul><a href="#">Srinagar</a></ul>
+                <ul><a href="#">Vaishno Devi</a></ul>
+                <ul><a href="#">Doda</a></ul>
+                <ul><a href="#">Kishtwar</a></ul>
+                <ul><a href="#">Sanasar</a></ul>
+                
+            </h3>
+        </p>
+
+    </body>
+    </html>
+
+
+2)	yusmarg.html
+
+<html>
+    <head>
+        <title>
+            Yusmarg
+        </title>
+    </head>
+    <body bgcolor="pink">
+        <h1><center>YUSMARG</center></h1>
+        <center><img src="images/yusmarg.jpg" alt="yusmarg"></center>
+        <p><h3>Yusmarg is a hill station in the western part of the valley of Kashmir. The Ahmadiyya Muslim community believes it to be the place where Jesus once lived. The landscape here is more beautiful than anything you will ever see.
+            <br>
+            There are plenty of options for sightseeing and trying out activities like trekking and horse riding.
+            <br>
+            <h2><u>Sightseeing Attractions in Yusmarg</u></h2>
+            <ul>Pakherpora Shrine</ul>
+            <ul>Charar-e-Sharif</ul>
+            <ul>Doodhganga</ul>
+            <ul>Nilnag Lake</ul>
+            <ul>Sang-e-Safed</ul> 
+            <h2><u>Top Things to Do in Yusmarg</u></h2>
+            <ul>Trekking</ul>
+            <ul>Horse riding</ul>
+            <ul>Trout fishing</ul>  
+        </h3></p>
+    </body>
+</html>
+
+3)	gurezValley.html
+
+<html>
+    <head>
+        <title>
+            Gurez Valley
+        </title>
+    </head>
+    <body bgcolor="pink">
+        <h1><center>GUREZ VALLEY</center></h1>
+        <center><img src="images/gurezValley.jpg" alt="gurez Valley"></center>
+        <p><h3>For six months, the Gurez Valley is cut off from the rest of the world, and that enhances its appeal as a famous tourist destination in Jammu and Kashmir. The people who live here are one of the oldest tribes in Kashmir called the Dard Shin Tribe and speak a language called Shina.
+            <br>    
+            The picturesque valley is surrounded by snow capped mountains, meadows clothed with lindens, walnut and willow trees and the raging river Kishan Ganga.
+            <br>
+            <h2><u>Sightseeing Attractions in Gurez Valley</u></h2>
+            <ul>Peer Baba Shrine</ul>
+            <ul>Habba Khatoon Peak</ul>
+            <h2><u>Top Things to Do in Gurez Valley</u></h2>
+            <ul>Trekking</ul>
+            <ul>Trout Fishing</ul>
+            <ul>Mountain Climbing</ul>
+        </h3></p>
+    </body>
+</html>
+
+
