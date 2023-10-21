@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="branch">Branch:</label>
+            <input type="text" id="branch" name="branch" required>
+
+            <label>Section:</label>
+            <div class="radio-buttons">
+                <label>
+                    <input type="radio" name="section" value="A" required> A
+                </label>
+                <label>
+                    <input type="radio" name="section" value="B"> B
+                </label>
+                <label>
+                    <input type="radio" name="section" value="C"> C
+                </label>
+            </div>
+
+            <label for="year">Year:</label>
+            <select id="year" name="year">
+                <option value="1">1st Year</option>
+                <option value="2">2nd Year</option>
+                <option value="3">3rd Year</option>
+                <option value="4">4th Year</option>
+            </select>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
+
+style.css ->
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+select,
+.radio-buttons {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.radio-buttons label {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #555;
+}
